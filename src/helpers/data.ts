@@ -1,5 +1,5 @@
 import swpProject from "assets/project/SWP391-KoiOrderingSystemInJapan.png";
-
+import portFolio from "assets/project/portFolio.png";
 export const APP_DATA = {
   FACEBOOK_URL: "https://www.facebook.com/vietphomaique123/",
   GIT_URL: "https://github.com/Vietokeman/",
@@ -33,17 +33,15 @@ export const PROJECTS = [
     githubLink: "https://github.com/thanhbinh12i/KoiOrderingSystemInJapan",
     demoLink: "https://koidaynevn.vercel.app/",
   },
-  // {
-  //   id: 2,
-  //   imgPath: springRestImg,
-  //   title: "Java Spring REST",
-  //   description:
-  //     "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-  //   githubLink:
-  //     "https://hoidanit.vn/khoa-hoc/java-spring-rest-ultimate-for-beginners-6631cb577353ab6861b188f6.html",
-  //   demoLink:
-  //     "https://hoidanit.vn/khoa-hoc/java-spring-rest-ultimate-for-beginners-6631cb577353ab6861b188f6.html",
-  // },
+  {
+    id: 2,
+    imgPath: portFolio,
+    title: "Portfolio",
+    description: "Create my Portfolio by learning typescript",
+    githubLink: "https://github.com/Vietokeman/My-Portfolio",
+    demoLink:
+      "https://hoidanit.vn/khoa-hoc/java-spring-rest-ultimate-for-beginners-6631cb577353ab6861b188f6.html",
+  },
 ];
 
 export const SKILLS_DATA = [
