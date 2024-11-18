@@ -39,8 +39,7 @@ export const PROJECTS = [
     title: "Portfolio",
     description: "Create my Portfolio by learning typescript",
     githubLink: "https://github.com/Vietokeman/My-Portfolio",
-    demoLink:
-      "https://hoidanit.vn/khoa-hoc/java-spring-rest-ultimate-for-beginners-6631cb577353ab6861b188f6.html",
+    demoLink: "https://my-portfolio-wu6a.vercel.app/",
   },
 ];
 
