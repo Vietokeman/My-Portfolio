@@ -23,29 +23,42 @@ const HeroRight = () => {
               {`'`}Nguyễn Việt{`',`}
             </span>
           </div>
+          <div>
+            <span className="ms-4 me-2">position:</span>
+            <span className="text-yellow-500">
+              {`'`}Fullstack Developer{`',`}
+            </span>
+          </div>
           <div className="ms-4 me-2 text-pink-200">
             <span className="text-white-0">skills:</span>
-            <span>{`['`}</span>
-            <span>React</span>
-            <span>{"', '"}</span>
-            <span>Redux</span>
-            <span>{"', '"}</span>
-
-            <span>SQL</span>
-            <span>{`']`}</span>
+            <span>{`[`}</span>
+            <span className="text-blue-100">'React'</span>
+            <span>, </span>
+            <span className="text-blue-100">'Angular'</span>
+            <span>, </span>
+            <span className="text-blue-100">'.NET'</span>
+            <span>, </span>
+            <span className="text-blue-100">'Node.js'</span>
+            <span>, </span>
+            <span className="text-blue-100">'Redis'</span>
+            <span>, </span>
+            <span className="text-blue-100">'MongoDB'</span>
+            <span>, </span>
+            <span className="text-blue-100">'RabbitMQ'</span>
+            <span>{`],`}</span>
           </div>
           <div>
-            <span className="ms-4  me-2 ">hardWorker:</span>
+            <span className="ms-4 me-2">hardWorker:</span>
             <span className="text-red-500">true</span>
             <span>,</span>
           </div>
           <div>
-            <span className="ms-4  me-2 ">quickLearner:</span>
+            <span className="ms-4 me-2">quickLearner:</span>
             <span className="text-red-500">true</span>
             <span>,</span>
           </div>
           <div>
-            <span className="ms-4 me-2 ">problemSolver:</span>
+            <span className="ms-4 me-2">problemSolver:</span>
             <span className="text-red-500">true</span>
             <span>,</span>
           </div>
@@ -60,25 +73,25 @@ const HeroRight = () => {
           </div>
           <div>
             <span className="ms-5 ps-3 text-blue-100">this.</span>
-            <span className="me-2 ">hardWorker</span>
+            <span className="me-2">hardWorker</span>
             <span className="text-blue-100">&amp;&amp;</span>
           </div>
           <div>
             <span className="ms-5 ps-3 text-blue-100">this.</span>
-            <span className="me-2 ">problemSolver</span>
+            <span className="me-2">problemSolver</span>
             <span className="text-blue-100">&amp;&amp;</span>
           </div>
           <div>
             <span className="ms-5 ps-3 text-blue-100">this.</span>
             <span className="me-2">skills.length</span>
             <span className="me-2 text-blue-100">&gt;=</span>
-            <span className="text-red-500">3</span>
+            <span className="text-red-500">6</span>
           </div>
           <div>
-            <span className="ms-5 me-2 ">{`);`}</span>
+            <span className="ms-5 me-2">;</span>
           </div>
           <div>
-            <span className="ms-4">{`};`}</span>
+            <span className="ms-4">;</span>
           </div>
           <div>
             <span>{`};`}</span>
