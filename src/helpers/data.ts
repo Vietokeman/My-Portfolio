@@ -83,12 +83,39 @@ export const PROJECTS = [
 ];
 
 export const SKILLS_DATA = [
+  // Frontend
   "HTML",
   "CSS",
   "Javascript",
   "Typescript",
   "React",
-  "Git",
+  "Angular",
   "Bootstrap",
+  "Ant Design",
+
+  // Backend & Language
+  "C#",
+  ".NET",
+  "Node.js",
+  "Express.js",
+
+  // Database
   "MySQL",
+  "PostgreSQL",
+  "MongoDB",
+  "Redis",
+
+  // Messaging & Caching
+  "RabbitMQ",
+
+  // DevOps / Infrastructure
+  "Docker",
+  "Ocelot Gateway",
+
+  // Observability & Logging
+  "Kibana",
+  "Elasticsearch",
+
+  // Others
+  "Git",
 ];

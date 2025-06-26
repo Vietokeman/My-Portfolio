@@ -73,6 +73,21 @@ import webix from "assets/svg/skills/webix.svg";
 import wolframalpha from "assets/svg/skills/wolframalpha.svg";
 import wordpress from "assets/svg/skills/wordpress.svg";
 
+const redis =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redis/redis-original.svg";
+const rabbitmq =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original.svg";
+
+const elasticsearch =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/elasticsearch/elasticsearch-original.svg";
+const express =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg";
+
+const nodejs =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg";
+const antDesign =
+  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/antdesign/antdesign-original.svg";
+
 export const skillsImage = (skill: string) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
@@ -224,6 +239,29 @@ export const skillsImage = (skill: string) => {
       return wolframalpha;
     case "canva":
       return canva;
+    case "redis":
+      return redis;
+    case "rabbitmq":
+      return rabbitmq;
+
+    case "elasticsearch":
+      return elasticsearch;
+
+    case "express":
+    case "express.js":
+      return express;
+    case "dotnet":
+    case ".net":
+    case "dotnetcore":
+      return "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg";
+    case "node":
+    case "nodejs":
+      return nodejs;
+    case "antdesign":
+    case "ant design":
+    case "antd":
+      return antDesign;
+
     default:
       break;
   }
