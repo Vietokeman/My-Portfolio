@@ -27,29 +27,38 @@ const Introduction = () => {
           </h2>
           <br />
           <p>
-            {t("introSection.heading1")}
-            <br />
-            <br />
-            {t("introSection.heading2")}
-            <i>
-              <b className="text-pink-100">
-                {" "}
-                C#, Typescript {t("introSection.and")} Javascript.{" "}
-              </b>
-            </i>
-            <br />
-            <br />
-            {t("introSection.heading3")} &nbsp;
-            <i>
-              <b className="text-pink-100">{t("introSection.heading4")}</b>
-            </i>
-            <br />
-            <br />
-            {t("introSection.heading5")}
-            <i>
-              <b className="text-pink-100">&nbsp;Typescript</b>{" "}
-            </i>
-            {t("introSection.and")}
+            {i18n.resolvedLanguage === "en" ? (
+              <>
+                I'm <b className="text-pink-100">Nguyễn Việt</b>, a fullstack
+                developer passionate about building scalable systems with{" "}
+                <b className="text-pink-100">.NET & Next.js</b>.
+                <br />
+                <br />
+                I specialize in microservices, event-driven architecture
+                (RabbitMQ, SignalR), and secure APIs using IdentityServer4.
+                <br />
+                <br />I also work with modern frontend tools like
+                <b className="text-pink-100"> React, Angular & Tailwind CSS</b>,
+                and deploy using
+                <b className="text-pink-100"> Docker & Elastic Stack</b>.
+              </>
+            ) : (
+              <>
+                Mình là <b className="text-pink-100">Nguyễn Việt</b>, lập trình
+                viên fullstack yêu thích xây dựng hệ thống mở rộng bằng{" "}
+                <b className="text-pink-100">.NET & Next.js</b>.
+                <br />
+                <br />
+                Mình chuyên về kiến trúc microservices, giao tiếp sự kiện
+                (RabbitMQ, SignalR), và bảo mật với IdentityServer4.
+                <br />
+                <br />
+                Ngoài ra mình còn sử dụng{" "}
+                <b className="text-pink-100">React, Angular, Tailwind</b> và
+                triển khai bằng
+                <b className="text-pink-100"> Docker + Elastic Stack</b>.
+              </>
+            )}
           </p>
         </Col>
         <Col md={3} className="d-md-block d-none">
